@@ -18,6 +18,8 @@ Docker
 Microsoft Azure
 Azure CLI
 Python (Flask)
+
+
 📁 Project Structure
 azure-docker-terraform-project/
 │
@@ -30,6 +32,8 @@ azure-docker-terraform-project/
 │   ├── provider.tf
 │
 └── README.md
+
+
 🐳 Docker Setup
 Build Image
 docker build -t myapp:v1 .
@@ -37,6 +41,8 @@ Tag Image
 docker tag myapp:v1 <acr-name>.azurecr.io/myapp:v1
 Push Image
 docker push <acr-name>.azurecr.io/myapp:v1
+
+
 ☁️ Azure Setup
 Login
 az login
@@ -53,11 +59,15 @@ terraform apply
 
 After deployment, access the application:
 
+
 http://<dns-name>.centralindia.azurecontainer.io
 🔐 Security Features
 NSG rules to allow only HTTP traffic
 Private container registry (ACR)
 Network isolation using VNet
+
+
+
 🎯 Key Learnings
 Infrastructure as Code using Terraform
 Container deployment on Azure
@@ -68,6 +78,3 @@ Use Azure Kubernetes Service (AKS)
 Add Application Gateway
 Implement CI/CD using GitHub Actions
 Use Managed Identity instead of admin credentials
-👨‍💻 Author
-
-Sumit Chavan
