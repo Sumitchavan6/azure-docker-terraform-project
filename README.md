@@ -22,11 +22,15 @@ Python (Flask)
 
 📁 Project Structure
 azure-docker-terraform-project/
-│
+
+
+
 ├── app/
 │   ├── app.py
 │   └── Dockerfile
-│
+
+
+
 ├── infra/
 │   ├── main.tf
 │   ├── provider.tf
