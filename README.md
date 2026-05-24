@@ -56,6 +56,10 @@ Login
 az login
 Create ACR
 az acr create --name <acr-name> --resource-group <rg> --sku Basic
+
+
+
+
 ⚙️ Terraform Deployment
 Initialize
 terraform init
