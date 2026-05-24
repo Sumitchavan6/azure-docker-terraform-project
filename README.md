@@ -80,5 +80,9 @@ Secure image management with ACR
 🚀 Future Enhancements
 Use Azure Kubernetes Service (AKS)
 Add Application Gateway
+
+
+<img width="1259" height="480" alt="image" src="https://github.com/user-attachments/assets/c2daaf20-c2c0-441b-bb61-4ff0d63a7ed1" />
+
 Implement CI/CD using GitHub Actions
 Use Managed Identity instead of admin credentials
