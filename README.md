@@ -41,8 +41,12 @@ azure-docker-terraform-project/
 🐳 Docker Setup
 Build Image
 docker build -t myapp:v1 .
+
+
 Tag Image
 docker tag myapp:v1 <acr-name>.azurecr.io/myapp:v1
+
+
 Push Image
 docker push <acr-name>.azurecr.io/myapp:v1
 
